@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a9ea9c2a1f06e884eb05ec93542ce56a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - menuPanel: {instanceID: 0}
+  - gamePlayPanel: {instanceID: 0}
+  - gameOverPanel: {instanceID: 0}
+  - secondChancePanel: {instanceID: 0}
+  - score: {instanceID: 0}
+  - swishText: {instanceID: 0}
+  - soundOff: {fileID: -4381033382122199382, guid: e79daca4f0a9c8544b2c0b5d937a4606, type: 3}
+  - soundOn: {fileID: -2501938655932608004, guid: b0035bb70cce4a14a8903efe9657b5dd, type: 3}
+  - vibrationOn: {fileID: 7187949482645638091, guid: 1527ae7c9f7da4e4590e5084321e4bcf, type: 3}
+  - vibrationOff: {fileID: 7214934438813990507, guid: fef4517f4d89f4b48a06d78e3a7879f9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

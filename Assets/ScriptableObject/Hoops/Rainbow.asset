@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1831f91487c5b04da779cf3d41d09a9, type: 3}
+  m_Name: Rainbow
+  m_EditorClassIdentifier: 
+  ID: 3
+  FrontSprite: {fileID: 21300000, guid: eda33a8319d30414da4bdc8d9e951cba, type: 3}
+  BackSprite: {fileID: 21300000, guid: 84c56d755e8cbf64b840d7b6f9fa2737, type: 3}
+  Condition: 'Complete 1 challenge '
+  startEffect: {fileID: 21300000, guid: 2be20357b438dac4196c3d5037e23304, type: 3}

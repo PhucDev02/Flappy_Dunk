@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3722896995796200958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3722896995796200896}
+  - component: {fileID: 3722896995796200959}
+  - component: {fileID: 157302209614765219}
+  - component: {fileID: -2748804515254018940}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3722896995796200896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722896995796200958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0144722, y: 2.4964256, z: 89.99866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3722896995796200959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722896995796200958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9b4c78b2dcbc14ab226b052469f156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls:
+  - {fileID: 11400000, guid: e714f5ab967e0ee44afab1193775a2f0, type: 2}
+  - {fileID: 11400000, guid: 8d09305272e4cdf47932d78c8753b9c8, type: 2}
+  - {fileID: 11400000, guid: 9c454aaada944fe41b871032f6041fd7, type: 2}
+  - {fileID: 11400000, guid: d3dc65f423724204ba875180a2ef6745, type: 2}
+  - {fileID: 11400000, guid: ec635f3ea67bd1c47aac7fd8270129c4, type: 2}
+  - {fileID: 11400000, guid: e8d11b8921c21804cb8e8b0af8745363, type: 2}
+  - {fileID: 11400000, guid: f1e01778e2f159f45b614aaf6c22c0f0, type: 2}
+  - {fileID: 11400000, guid: 962ff0d2ae6c44f439486e8c12f72be0, type: 2}
+  wings:
+  - {fileID: 11400000, guid: b406c05ba7bbe6f47931099aa66df960, type: 2}
+  - {fileID: 11400000, guid: 6cec32817e26e9a498a5baee5cc535e6, type: 2}
+  - {fileID: 11400000, guid: 5f50ed619b1e43c4cb44040237aaa4f3, type: 2}
+  - {fileID: 11400000, guid: 49eda9e473040bb4d9a8073acca8529e, type: 2}
+  - {fileID: 11400000, guid: 697a46469d88edc4194b153c1fdd390c, type: 2}
+  - {fileID: 11400000, guid: 2316bd54dbc26e143b1e7be4139d84e4, type: 2}
+  hoops:
+  - {fileID: 11400000, guid: a899ef50ab175584ebff7300c6c659bd, type: 2}
+  - {fileID: 11400000, guid: 42d66f974112c0e408340ff1680c8a58, type: 2}
+  - {fileID: 11400000, guid: 27c6d71c4ccbeb14eaed8b26e398aafc, type: 2}
+  - {fileID: 11400000, guid: b29fd9fc79ea9c04eb981ea50bd0530d, type: 2}
+  - {fileID: 11400000, guid: fe39a74895a702246b742d9df5b99739, type: 2}
+  - {fileID: 11400000, guid: 91fca5709df5ba34081a35ffbd3a2d9e, type: 2}
+  flames:
+  - {fileID: 11400000, guid: 917a6130548eb6e4199c237a8ef2c413, type: 2}
+  - {fileID: 11400000, guid: d1621a0390542364b8f7b6285ffdfd24, type: 2}
+  - {fileID: 11400000, guid: 77b02f54b9837fe4f91e7c1bc34abf4e, type: 2}
+  - {fileID: 11400000, guid: c5c0fb3e4e3ea0c4c8a5aa71e5abc74b, type: 2}
+  - {fileID: 11400000, guid: cbfc785fb91ec5b4db8d6c188122fed0, type: 2}
+  - {fileID: 11400000, guid: e16cfd78853a06a4da4cb8414d2806ee, type: 2}
+  challenges:
+  - {fileID: 11400000, guid: ca85bd724134c0d4982538fa3b08b584, type: 2}
+  - {fileID: 11400000, guid: 140d443629ffa164ba864c7ec6f9fc73, type: 2}
+  - {fileID: 11400000, guid: 77474af74c8c5d84ca99f16b09ee3064, type: 2}
+  AmountItem: 0
+  AmountItemUnlocked: 0
+  AmountChallengeComplete: 0
+--- !u!114 &157302209614765219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722896995796200958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af82825f7451a594d8f00d3efa6af290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orange: {r: 0.8588236, g: 0.47058827, b: 0.1254902, a: 1}
+  blue: {r: 0.13725491, g: 0.7176471, b: 0.8470589, a: 1}
+  purple: {r: 0.6666667, g: 0.18823531, b: 0.9215687, a: 1}
+  green: {r: 0.1254902, g: 0.85098046, b: 0.15686275, a: 1}
+  red: {r: 0.89019614, g: 0.18823531, b: 0.18823531, a: 1}
+  yellow: {r: 0.8588236, g: 0.82745105, b: 0.1254902, a: 1}
+  disableColor: {r: 0.7169812, g: 0.6858669, b: 0.6858669, a: 1}
+  darkRed: {r: 0.77254903, g: 0, b: 0, a: 1}
+  darkOrange: {r: 0.8490566, g: 0.399556, b: 0, a: 1}
+  blackBall: {fileID: 21300000, guid: 850dc98aa1055a24d91712547a2b8b68, type: 3}
+  feverWing: {fileID: 21300000, guid: 02da13450f22094489babaa5b2a55e29, type: 3}
+  flame: {fileID: -7689052228002880789, guid: 4218f800d03b373458c8874c470488f9, type: 3}
+  soundOff: {fileID: -4381033382122199382, guid: e79daca4f0a9c8544b2c0b5d937a4606, type: 3}
+  soundOn: {fileID: -2501938655932608004, guid: b0035bb70cce4a14a8903efe9657b5dd, type: 3}
+  vibrationOn: {fileID: 7187949482645638091, guid: 1527ae7c9f7da4e4590e5084321e4bcf, type: 3}
+  vibrationOff: {fileID: 7214934438813990507, guid: fef4517f4d89f4b48a06d78e3a7879f9, type: 3}
+--- !u!114 &-2748804515254018940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722896995796200958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d2d87db05f7624380c244b38f14baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
